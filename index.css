@@ -1,27 +1,33 @@
-form { grid-column: span 2;
-grid-template-columns: 1fr 2 fr;
-}
 
-
-#submit-button { 
-    grid-column: span 2;
-    width:300px ;
-    justify-self: center;
-    border: solid rgb(41, 47, 141)
-}
-main{background-color: antiquewhite;}
 body{background-color: rgb(34, 60, 49);
-align-items: center;
-justify-items: center;
-justify-self: center;}
-
-#image{ width: 500px;
-    height: 500px;
-z-index: 1;
-left: 500;
-display:flex;
-padding: 8px;
-margin: 50;;
-
-}
+    align-items: center;
+    justify-items: center;
+    justify-self: center;}
 h1 {color: antiquewhite;}
+
+.images{
+    display: flex; 
+    width: 200px;
+    height: 200px;
+z-index: 7;
+padding: 8px;
+margin: 10;
+}
+#image2 { float: right;
+z-index: 5;}
+#image1{ float:right;}
+#image3 {float:left;}
+
+#image4{ float:inline-start;
+margin: 120;
+border: 10;}
+
+footer{ background-color: antiquewhite;}
+form { grid-column: span 2;
+    grid-template-columns: 1fr 2 fr;
+    }
+    #submit-button { 
+        grid-column: span 2;
+        width:300px ;
+        justify-self: center;
+        border: solid rgb(41, 47, 141) }
